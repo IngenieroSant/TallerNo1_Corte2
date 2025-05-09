@@ -1,0 +1,22 @@
+<resources>
+    <!-- Estilo para los EditText -->
+    <style name="EditBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@android:drawable/edit_text</item>
+        <item name="android:textColor">#37474F</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Estilo para los botones -->
+    <style name="MainButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:backgroundTint">#039BE5</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

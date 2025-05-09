@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TallerNro1_Corte2_202501</string>
+
+    <string name="hint_x1">Ingrese x1</string>
+    <string name="hint_y1">Ingrese y1</string>
+    <string name="hint_x2">Ingrese x2</string>
+    <string name="hint_y2">Ingrese y2</string>
+
+    <string name="btn_pendiente">Calcular Pendiente</string>
+    <string name="btn_punto_medio">Calcular Punto Medio</string>
+    <string name="btn_ecuacion_recta">Calcular Ecuación Línea Recta</string>
+    <string name="btn_cuadrantes">Calcular Cuadrantes</string>
+</resources>

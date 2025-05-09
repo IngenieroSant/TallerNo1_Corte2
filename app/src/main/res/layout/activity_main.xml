@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal"
+        android:contextClickable="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculadora de Puntos en el Plano"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Campos de entrada -->
+        <EditText
+            android:id="@+id/etX1"
+            style="@style/EditBox"
+            android:hint="@string/hint_x1" />
+
+        <EditText
+            android:id="@+id/etY1"
+            style="@style/EditBox"
+            android:hint="@string/hint_y1" />
+
+        <EditText
+            android:id="@+id/etX2"
+            style="@style/EditBox"
+            android:hint="@string/hint_x2" />
+
+        <EditText
+            android:id="@+id/etY2"
+            style="@style/EditBox"
+            android:hint="@string/hint_y2" />
+
+        <!-- Botones -->
+        <Button
+            android:id="@+id/btnPendiente"
+            style="@style/MainButton"
+            android:text="@string/btn_pendiente" />
+
+        <Button
+            android:id="@+id/btnPuntoMedio"
+            style="@style/MainButton"
+            android:text="@string/btn_punto_medio" />
+
+        <Button
+            android:id="@+id/btnEcuacionRecta"
+            style="@style/MainButton"
+            android:text="@string/btn_ecuacion_recta" />
+
+        <Button
+            android:id="@+id/btnCuadrantes"
+            style="@style/MainButton"
+            android:text="@string/btn_cuadrantes" />
+
+        <!-- Resultado -->
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado aparecerá aquí"
+            android:textSize="16sp"
+            android:textColor="#263238"
+            android:background="#ECEFF1"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+</ScrollView>
